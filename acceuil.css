@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(181, 149, 101);
+    background-color: rgb(183, 217, 155);
+    position : relative;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(132, 197, 132);
+}
+
+.onglets {
+    display: flex;
+    justify-content: flex-end;
+    gap : 30px; 
+    font-size: 20px;
+    position : relative;
+    right : 10px;
+    bottom : 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+}
+
+.general {
+    display: flex;
+    justify-content: flex-start;
+    gap : 15px;
+    position : absolute; 
+    top : 10px; 
+    left : 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    color :rgb(252, 225, 183)
+}
+
+h2 {
+    color:rgb(181, 149, 101);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position : relative;
+    top : 10px;
+    border : 3px  rgb(224, 231, 171)solid; 
+    border-radius : 200px;
+}
+
+.section1 {
+    font-size: 50px;
+    color: rgb(181, 149, 101);
+    text-align: end;
+}
+
+.section2 {
+    font-size: 50px;
+    color: rgb(181, 149, 101);
+}
+.section3 {
+    font-size: 50px;
+    color: rgb(181, 149, 101);
+    text-align: end;
+}
+
+#livre {
+    width : 450px;
+    height : 300px;
+    top : 250px;
+    right : 100px;
+    margin:20px;
+}
+
+#avatar {
+    width : 450px;
+    height : 300px;
+    top : 250px;
+    right : 100px;
+    margin: 20px;
+}
+
+#musique {
+    margin: 20px;
+    width : 450px;
+    height : 300px;
+    top : 250px;
+    right : 100px;
+}
+
+a {
+    color:rgb(181, 149, 101);
+    text-decoration: none;
+}
+
+li:hover {
+   color :rgb(252, 225, 183) 
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(181, 149, 101);
+    font-size: 16px;
+}
+
+input[type="email"] {
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(181, 149, 101);
+    font-size: 16px;
+}
+
+input [name="conseil"] {
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(181, 149, 101);
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(181, 149, 101);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(181, 149, 101);
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: rgb(181, 149, 101);
+    outline: none; /* enlève le contour bleu */
+}
+
+footer {
+    background-color:rgb(28, 46, 34); 
+    color:rgb(181, 149, 101); 
+    padding: 20px;
+    text-align: center; 
+}

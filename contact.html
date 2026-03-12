@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="stlyce.css"> 
+</head>
+<body>
+   <header>
+        <h1>La librairie de Maëlle</h1>
+            <nav>
+                <ul class="onglets">
+                    <li><a href="actualité.html">Actualité</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="bibliothèque.html">Bibliothèque</a></li>
+                </ul>
+                <ul class="general">
+                    <li><a href="acceuil.html">Acceuil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="formulaire">
+    <form action="https://formsubmit.co/laureline.grosclaude@gmail.com" method="POST">
+        <label for="name">Votre nom</label>
+        <input type="text" name="name" required>
+
+        <label for="surname">Votre prénom</label>
+        <input type="text" name="surname">
+
+        <label for="email">Votre email</label>
+        <input type="email" name="email" required>
+
+        <label for="conseil">Quand pensez-vous ?</label>
+        <textarea name="conseil" id="conseil"></textarea>
+
+        <label for="submit">Send</label>
+        <button type="submit">Send</button>
+    </form>
+    </div>
+</body>
+</html>
