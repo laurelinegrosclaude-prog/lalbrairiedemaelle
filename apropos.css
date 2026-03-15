@@ -48,6 +48,15 @@ h1 {
     font-size: 75px;
 }
 
+h2 {
+    color:rgb(181, 149, 101);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position : relative;
+    border-radius : 20px;
+}
+
 .general {
     display: flex;
     justify-content: flex-start;
@@ -58,71 +67,34 @@ h1 {
     font-size: 20px
 }
 
-form {
+main {
+    background-color: bisque;
+    width: 80%;
     display: flex;
-    flex-direction: column;
-}
-
-.formulaire {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-input[type="text"] {
-    border-radius: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid rgb(181, 149, 101);
-    font-size: 16px;
-    background-color: bisque;
-}
-
-input[type="email"] {
-    border-radius: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid rgb(181, 149, 101);
-    font-size: 16px;
-    background-color: bisque;
-}
-
-input [name="conseil"] {
-    border-radius: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 30px;
-    border: 1px solid rgb(181, 149, 101);
-    font-size: 16px;
-    background-color: bisque;
-}
-
-button {
-    background-color: rgb(181, 149, 101);
-    color:bisque;
+    flex-wrap: wrap;
     padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-textarea {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
     border-radius: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid rgb(181, 149, 101);
-    font-size: 16px;
-    background-color: bisque;
+    margin-bottom: 20px;
 }
 
-input:focus {
-    border-color: rgb(181, 149, 101);
-    outline: none; /* enlève le contour bleu */
+h3 {
+    font-size: 40px;
+    gap: 15px;
+    color: rgb(181, 149, 101);
+}
+
+p {
+    color: rgb(181, 149, 101);
+    font-size: 20px;
+}
+
+.container div {
+    background-color: bisque;
+    width: 80%;
+    border-radius: 50px;
 }
 
 a {
@@ -137,9 +109,6 @@ li:hover {
 a:hover {
     color :rgb(218, 174, 105)
 }
-h3:hover{
-   color: rgb(218, 174, 105)
-}
 
 footer {
     background-color:rgb(28, 46, 34); 
@@ -150,5 +119,3 @@ footer {
     justify-content: space-around;
     font-size: 20px;
 }
-
-
